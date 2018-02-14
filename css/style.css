@@ -1,0 +1,129 @@
+/* ================================= 
+  Base Element Styles
+==================================== */
+
+* {
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+}
+
+.main-list {
+  list-style-type: none;
+} 
+
+.col,
+.li:last-child {
+  line-height: 400%;
+}
+
+img {
+	max-width: 100%;
+}
+
+/* ===== Navigation ===== */
+
+.main-nav {
+  color: white;
+  text-align: center;
+  font-size: 250%;
+  font-weight: bold;
+  height: 875px;
+  background: url('../img/celticbackground.jpg') no-repeat center;
+  background-size: cover;
+  opacity: 0.8;
+ }
+
+/* ===== Layout Containers ===== */
+
+
+
+
+/* ===== Pseudo-classes ===== */
+
+a:link {
+  color: white;
+}
+
+a:visited {
+  color:  white;
+}
+
+a:hover {
+  color: black;
+}
+
+/* ================================= 
+  Media Queries
+==================================== */
+
+@media (min-width: 769px) {
+
+.container {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.right,
+.left,
+.li:last-child {
+  line-height: 500%;
+}
+
+.middle,
+.li {
+  line-height: 800%;
+}
+
+.main-nav {
+  color: white;
+  text-align: center;
+  font-size: 300%;
+  font-weight: bold;
+  height: 1000px;
+  background: url('../img/celticbackground.jpg') no-repeat center;
+  background-size: cover;
+  opacity: 0.8;
+ }
+
+.col {
+  float: left;
+}
+
+.left, 
+.middle,
+.right {
+  width: 33%;
+}
+
+/* ---- Float clearfix ---- */
+
+.clearfix::after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+}
+
+@media (min-width: 1025px) {
+	
+	.container {
+		width: 80%;
+		max-width: 1150px;
+	}
+
+  .main-nav {
+    color: white;
+    text-align: center;
+    font-size: 450%;
+    font-weight: bold;
+    height: 750px;
+    background: url('../img/celticbackground.jpg') no-repeat center;
+    background-size: cover;
+    opacity: 0.8;
+   }
+
+ }
