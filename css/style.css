@@ -1,5 +1,5 @@
 /* ================================= 
-  Base Element Styles
+  Base Styles
 ==================================== */
 
 * {
@@ -9,84 +9,102 @@
 a {
 	text-decoration: none;
 }
-
-.main-list {
-  list-style-type: none;
-} 
-
-.col,
-.li:last-child {
-  line-height: 400%;
+a:link {
+  color: yellow;
+}
+a:visited {
+  color:  white;
+}
+a:hover {
+  color: rgb(80, 10, 10);
 }
 
 img {
 	max-width: 100%;
 }
 
-/* ===== Navigation ===== */
+.main-header {
+  color: white;
+  text-align: center;
+  font-size: 1.75em;
+  font-weight: bold;
+  background: url('../img/treebark1.jpg') no-repeat center;
+  background-size: cover;
+  margin: 15px;
+ }
+
+.main-list {
+  list-style-type: none;
+} 
+
+/* TRouBLe*/
+.li,
+.outer {
+  padding: 24px 0 24px 0;
+}
 
 .main-nav {
   color: white;
   text-align: center;
-  font-size: 250%;
+  font-size: 2.5em;
   font-weight: bold;
-  height: 875px;
-  background: url('../img/celticbackground.jpg') no-repeat center;
+  background: url('../img/tree3.jpg') no-repeat center;
   background-size: cover;
-  opacity: 0.8;
- }
+  margin: 15px;
+  }
 
-/* ===== Layout Containers ===== */
-
-
-
-
-/* ===== Pseudo-classes ===== */
-
-a:link {
-  color: white;
-}
-
-a:visited {
-  color:  white;
-}
-
-a:hover {
-  color: black;
-}
-
+ 
 /* ================================= 
   Media Queries
 ==================================== */
 
 @media (min-width: 769px) {
 
-.container {
+/*.container {
 	width: 90%;
 	margin: 0 auto;
+}*/
+
+.main-header {
+  color: white;
+  text-align: center;
+  font-size: 1.75em;
+  font-weight: bold;
+  height: 150px;
+  background: url('../img/treetrunks.jpg') no-repeat center;
+  background-size: cover;
+  margin: 15px;
 }
 
-.right,
-.left,
-.li:last-child {
-  line-height: 500%;
-}
-
-.middle,
-.li {
-  line-height: 800%;
+/* TRouBLe*/
+h1 {
+  padding: 40px;
+  display: block;
 }
 
 .main-nav {
   color: white;
   text-align: center;
-  font-size: 300%;
+  font-size: 2.5em;
   font-weight: bold;
-  height: 1000px;
-  background: url('../img/celticbackground.jpg') no-repeat center;
+  height: 500px;
+  background: url('../img/tree3.jpg') no-repeat center;
   background-size: cover;
-  opacity: 0.8;
- }
+  margin: 15px;
+}
+
+/* TRouBLe*/
+.li,
+.outer {
+  padding: 100px 0 40px 0;
+  display: block;
+}
+
+.li,
+.center {
+  padding: 200px 0 0 0;
+  display: block;
+}
 
 .col {
   float: left;
@@ -107,23 +125,3 @@ a:hover {
 }
 
 }
-
-@media (min-width: 1025px) {
-	
-	.container {
-		width: 80%;
-		max-width: 1150px;
-	}
-
-  .main-nav {
-    color: white;
-    text-align: center;
-    font-size: 450%;
-    font-weight: bold;
-    height: 750px;
-    background: url('../img/celticbackground.jpg') no-repeat center;
-    background-size: cover;
-    opacity: 0.8;
-   }
-
- }
