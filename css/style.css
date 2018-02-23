@@ -28,9 +28,8 @@ img {
   text-align: center;
   font-size: 1.75em;
   font-weight: bold;
-  background: url('../img/treebark1.jpg') no-repeat center;
-  background-size: cover;
-  margin: 15px;
+  background-color: #f7730e;
+  margin: 0 15px 0 15px;
  }
 
 .main-list {
@@ -48,9 +47,9 @@ img {
   text-align: center;
   font-size: 2.5em;
   font-weight: bold;
-  background: url('../img/tree3.jpg') no-repeat center;
+  background: url('../img/tree9.jpg') no-repeat center;
   background-size: cover;
-  margin: 15px;
+  margin: 0 15px 0 15px;
   }
 
  
@@ -60,20 +59,14 @@ img {
 
 @media (min-width: 769px) {
 
-/*.container {
-	width: 90%;
-	margin: 0 auto;
-}*/
-
 .main-header {
   color: white;
   text-align: center;
   font-size: 1.75em;
   font-weight: bold;
   height: 150px;
-  background: url('../img/treetrunks.jpg') no-repeat center;
-  background-size: cover;
-  margin: 15px;
+  background-color: #f7730e;
+  margin: 0 15px 0 15px;
 }
 
 /* TRouBLe*/
@@ -88,9 +81,9 @@ h1 {
   font-size: 2.5em;
   font-weight: bold;
   height: 500px;
-  background: url('../img/tree3.jpg') no-repeat center;
+  background: url('../img/tree9.jpg') no-repeat center;
   background-size: cover;
-  margin: 15px;
+  margin: 0 15px 0 15px;
 }
 
 /* TRouBLe*/
@@ -115,6 +108,8 @@ h1 {
 .right {
   width: 33%;
 }
+
+
 
 /* ---- Float clearfix ---- */
 
